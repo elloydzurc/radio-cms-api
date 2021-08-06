@@ -1,0 +1,27 @@
+:root {
+  --primary: rgb(183, 1, 11, 1);
+  --primary-dark: rgb(149, 0, 8, 1);
+  --primary-70: rgba(183, 1, 11, 1, 0.7);
+  --primary-50: rgba(183, 1, 11, 1, 0.5);
+  --primary-30: rgba(183, 1, 11, 1, 0.3);
+  --primary-10: rgba(183, 1, 11, 1, 0.1);
+  --logo: #400004;
+  --sidebar-icon: #db34de;
+}
+
+.bg-grad-sidebar {
+  background-image: linear-gradient(to top, #FF9D9D, #861906, #400004);
+}
+
+button[dusk='update-and-continue-editing-button'], button[dusk='create-and-add-another-button'], button[dusk='attach-and-attach-another-button'] {
+    display: none;
+}
+
+a[dusk*="-edit-attached-button"] {
+    display: none;
+}
+
+.px-view.custom-header {
+    padding-left: 1.125rem;
+}
+
